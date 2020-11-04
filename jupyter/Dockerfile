@@ -1,10 +1,9 @@
 FROM jupyter/datascience-notebook
 
-RUN python --version
-
 RUN conda install --quiet --yes -c \
     conda-forge osmnx dask
 
+# Install requirements
 RUN pip install geopandas==0.8 \
 	geojson \
 	psycopg2-binary \
