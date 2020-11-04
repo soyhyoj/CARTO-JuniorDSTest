@@ -1,0 +1,25 @@
+version: "3"
+services:
+
+  jupyter:
+    build:
+      context: ./jupyter
+    ports:
+      - "8888:8888"
+    links:
+      - postgres
+    volumes:
+          - "./notebooks:/notebooks" 
+          - "./data:/data"
+
+  postgres:
+    image: postgres:latest
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: carto
+      POSTGRES_PASSWORD: carto
+      POSTGRES_DB: carto
+    volumes:
+        - ./init.sql:/docker-entrypoint-initdb.d/init.sql
