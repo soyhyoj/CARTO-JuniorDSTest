@@ -1,10 +1,11 @@
+# Start from a datascience-notebook image
 FROM jupyter/datascience-notebook
 
-RUN conda install --quiet --yes -c \
-    conda-forge osmnx dask
+# RUN conda install --quiet --yes -c \
+#     conda-forge osmnx dask
 
-# Install requirements
-RUN pip install geopandas==0.8 \
+# Install requirements. No cache to lower the image size.
+RUN pip install --no-cache geopandas==0.8 \
 	geojson \
 	psycopg2-binary \
 	shapely \
