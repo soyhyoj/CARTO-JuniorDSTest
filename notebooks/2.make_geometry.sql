@@ -9,9 +9,8 @@ with all_geom as
 		select
 			tpep_pickup_datetime,
 			tpep_dropoff_datetime,
-			trip_distance,
-			ST_MakePoint(pickup_longitude, pickup_latitude) as pickup_point,
-			ST_MakePoint(dropoff_longitude, dropoff_latitude) as dropoff_point
+			ST_SetSRID(ST_MakePoint(pickup_longitude, pickup_latitude), 4326) as pickup_point,
+			ST_SetSRID(ST_MakePoint(dropoff_longitude, dropoff_latitude), 4326) as dropoff_point
 		from taxi_jan
 	),
 	
@@ -20,9 +19,8 @@ with all_geom as
 		select
 			tpep_pickup_datetime,
 			tpep_dropoff_datetime,
-			trip_distance,
-			ST_MakePoint(pickup_longitude, pickup_latitude) as pickup_point,
-			ST_MakePoint(dropoff_longitude, dropoff_latitude) as dropoff_point
+			ST_SetSRID(ST_MakePoint(pickup_longitude, pickup_latitude), 4326) as pickup_point,
+			ST_SetSRID(ST_MakePoint(dropoff_longitude, dropoff_latitude), 4326) as dropoff_point
 		from taxi_apr
 	),
 	
@@ -31,9 +29,8 @@ with all_geom as
 		select
 			tpep_pickup_datetime,
 			tpep_dropoff_datetime,
-			trip_distance,
-			ST_MakePoint(pickup_longitude, pickup_latitude) as pickup_point,
-			ST_MakePoint(dropoff_longitude, dropoff_latitude) as dropoff_point
+			ST_SetSRID(ST_MakePoint(pickup_longitude, pickup_latitude), 4326) as pickup_point,
+			ST_SetSRID(ST_MakePoint(dropoff_longitude, dropoff_latitude), 4326) as dropoff_point
 		from taxi_jul
 	)
 	
