@@ -3,7 +3,7 @@ services:
 
   jupyter:
     build:
-      context: ./jupyter
+      context: ./docker
     ports:
       - "8888:8888"
     links:
