@@ -4,13 +4,14 @@ CARTO Junior Data Scientist Take Home Test (3-9 Nov 2020)
 <br>
 
 ## Tasks:
-The first process is ETL: NYC taxi data and census block group geometries were loaded to the Postgis. Then, the data from the database was queried and merged with ACS dataset to build a baseline model for predicting number of taxi pickup number.
+The first process is ETL - NYC taxi data and census block group geometries were loaded to the Postgis.
+The next step is to explore the data to build a baseline model for predicting number of taxi pickup number using ACS dataset.
 
 The two tasks were separately handled in different jupyter notebooks:
 1. [ETL](https://github.com/soyhyoj/CARTO-JuniorDSTest/blob/main/notebooks/1.ETL.ipynb)
 2. [Data exploration and baseline modeling](https://github.com/soyhyoj/CARTO-JuniorDSTest/blob/main/notebooks/2.EDA%2Bbaseline.ipynb)
 
-Summary report is provided as a [pdf](https://github.com/soyhyoj/CARTO-JuniorDSTest/blob/main/Summary_Report.pdf).
+Summary report is available: [pdf](https://github.com/soyhyoj/CARTO-JuniorDSTest/blob/main/Summary_Report.pdf).
 
 <br>
 
