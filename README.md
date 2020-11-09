@@ -4,7 +4,7 @@ CARTO Junior Data Scientist Take Home Test (3-9 Nov 2020)
 <br>
 
 ## Tasks:
-The first process is ETL - NYC taxi data and census block group geometries were loaded to the Postgis.<br>
+The first process is ETL - NYC taxi data and census block group geometries were loaded to the PostGIS.<br>
 The next step is to explore the data to build a baseline model for predicting number of taxi pickup number using ACS dataset.
 
 The two tasks were separately handled in different jupyter notebooks:
@@ -25,7 +25,7 @@ All data files were saved under "./data" directory.
 <br>
 
 ## Working environment
-Two docker containers for a Postgis database and Jupyter notebook were created using a docker compose.
+Two docker containers for a PostGIS database and Jupyter notebook were created using a docker compose.
 
 ```
 docker-compose up --build
