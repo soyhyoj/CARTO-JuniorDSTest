@@ -2,8 +2,9 @@
 CARTO Junior Data Scientist Take Home Test (Nov 2020)
 
 
+
 ## Working environment
-For this test, I created docker containers for a Postgis database and a Jupyternotebook using a docker compose. [Configuration file for the multi-container environment](https://github.com/soyhyoj/CARTO-JuniorDSTest/blob/main/docker-compose.yml) is available in this repository.
+Two docker containers for a Postgis database and Jupyter notebook were created using a docker compose. [Configuration file for the multi-container environment](https://github.com/soyhyoj/CARTO-JuniorDSTest/blob/main/docker-compose.yml) is available in this repository.
 By ETL, NYC taxi data and census block group geometries were loaded to the Postgis. Then, the data from the database was queried and merged with ACS dataset to build a baseline model for predicting number of taxi pickup number.
 
 
@@ -13,7 +14,8 @@ Two tasks of this test were separately handled in different jupyter notebooks:
 2. [Data exploration and baseline modeling](https://github.com/soyhyoj/CARTO-JuniorDSTest/blob/main/notebooks/2.EDA%2Bbaseline.ipynb)
 
 
-## Report:
+## Report
+
 
 
 ## Languages used in this project
