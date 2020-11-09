@@ -4,7 +4,7 @@ CARTO Junior Data Scientist Take Home Test (3-9 Nov 2020)
 <br>
 
 ## Tasks:
-The first process is ETL - NYC taxi data and census block group geometries were loaded to the Postgis.
+The first process is ETL - NYC taxi data and census block group geometries were loaded to the Postgis.<br>
 The next step is to explore the data to build a baseline model for predicting number of taxi pickup number using ACS dataset.
 
 The two tasks were separately handled in different jupyter notebooks:
@@ -33,6 +33,6 @@ docker-compose up --build
 <br>
 
 ## Libraries used in this project
-Libraries for geospatial data processing (e.g. geopandas, geopy, GeoAlchemy2) were used in addition to the eneral pydata stack (pandas, numpy, sklearn, matplotlib, seaborn).
+Libraries for geospatial data processing (e.g. geopandas, geopy, GeoAlchemy2) were used in addition to the general pydata stack (pandas, numpy, sklearn, matplotlib, seaborn).
 
 
