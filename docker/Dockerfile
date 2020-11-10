@@ -10,8 +10,8 @@ RUN pip install --no-cache psycopg2-binary \
 	geoalchemy2=0.8.4\
 	geopandas==0.8.0\
 	geojson==2.5.0\
-	geopy==2.0.0
-	pygeos \
+	geopy==2.0.0 \
+	pygeo \
 	shapely \
 	fiona \
 	pyproj==3.0.0\
