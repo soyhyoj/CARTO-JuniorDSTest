@@ -28,7 +28,7 @@ All data files were saved under "./data" directory.
 Two docker containers for a PostGIS database and Jupyter notebook were created using a docker compose.
 
 ```
-docker-compose up --build
+docker-compose up
 ```
 <br>
 
