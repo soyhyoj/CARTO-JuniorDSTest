@@ -35,4 +35,8 @@ docker-compose up
 ## Libraries used in this project
 Libraries for geospatial data processing (e.g. geopandas, GeoAlchemy2) were used in addition to the general pydata stack (pandas, numpy, sklearn, matplotlib, seaborn).
 
+<br>
 
+## To-do list
+[] Expand data exploratory analysis
+[] Improve modeling
