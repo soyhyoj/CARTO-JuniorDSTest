@@ -39,4 +39,5 @@ Libraries for geospatial data processing (e.g. geopandas, GeoAlchemy2) were used
 
 ## To-do list
 [] Expand data exploratory analysis
+
 [] Improve modeling
