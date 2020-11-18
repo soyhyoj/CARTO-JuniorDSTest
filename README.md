@@ -1,5 +1,5 @@
-# CARTO-JuniorDSTest
-CARTO Junior Data Scientist Take Home Test (3-9 Nov 2020)
+# NY taxi_GeospatialAnalysis
+This repository contains the results I delivered to the Madrid-based company CARTO for a Junior Data Scientist role (3-9 Nov 2020)
 
 <br>
 
