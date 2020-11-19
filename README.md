@@ -1,5 +1,5 @@
 # NY taxi_GeospatialAnalysis
-This repository contains the results I delivered to the Madrid-based company CARTO for a Junior Data Scientist role (3-9 Nov 2020)
+This repository contains the results I delivered to a Madrid-based company specialized in location intelligence for a Junior Data Scientist role (3-9 Nov 2020)
 
 <br>
 
