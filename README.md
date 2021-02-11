@@ -9,7 +9,7 @@ The next step is to explore the data to build a baseline model for predicting nu
 
 The two tasks were separately handled in different jupyter notebooks:
 1. [ETL](https://github.com/soyhyoj/CARTO-JuniorDSTest/blob/main/notebooks/1.ETL.ipynb)
-2. [Data exploration and baseline modeling](https://github.com/soyhyoj/CARTO-JuniorDSTest/blob/main/notebooks/2.EDA%2Bbaseline.ipynb)
+2. [Data exploration and baseline modeling](https://github.com/soyhyoj/GeospatialAnalysis_NYtaxi/blob/main/notebooks/2.EDA%2Bmodel.ipynb)
 
 Summary report is available: [pdf](https://github.com/soyhyoj/CARTO-JuniorDSTest/blob/main/Summary_Report.pdf).
 
